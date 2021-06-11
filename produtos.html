@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <title>Animes Show</title>
+    </head>
+    <body>
+        
+        <div id="area_cabecalho">
+            <header>
+                <h1 class="flex">Animes<span class="white">Show</span></h1>
+                <nav>
+                    <ul>
+                        <div class="flex menu-cabecalho">                       
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="produtos.html">Produtos</a></li>
+                            <li><a href="animes.html">Animes</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </div>
+                    </ul>
+                   
+                </nav>
+            </header>
+        </div>
+        <div id="container" class="center">
+            <main>
+                <h1>Lista de Produtos</h1>
+                <section>
+                    <article>
+                        <p>
+                            Além de acompanhar os melhores animes, você também pode adquirir seus produtos em nossa página. 
+                            Aqui na AnimesShow você pode encontrar produtos dos mais variados animes. Aproveite e peça já o seu!!!
+                           
+                        </p>
+                        <div id="produto">
+                            <figure>
+                                <img src="./image/boneco_naruto.jpg" alt="Boneco do Naruto">
+                                <figcaption>Boneco do Naruto</figcaption>
+                                <p>R$ 30.99</p>
+                                <button class="botao" onclick="alerta()">Comprar</button>
+                            </figure>
+                            <figure>
+                                <img src="./image/estatua_sasori.jpg" alt="estátua Sasori">
+                                <figcaption>Estátua do Sasori</figcaption>
+                                <p>R$ 39.99</p>
+                                <button class="botao" onclick="alerta()">Comprar</button>
+                            </figure>
+                            <figure>
+                                <img src="./image/moletom_naruto.jpg" alt="Moletom">
+                                <figcaption>Moletom Naruto</figcaption>
+                                <p>R$ 80.99</p>
+                                <button class="botao" onclick="alerta()">Comprar</button>
+                            </figure>
+                            <figure>
+                                <img src="./image/caneca_naruto.jpg" alt="Caneca Naruto">
+                                <figcaption>Caneca do Naruto</figcaption>
+                                <p>R$ 25.99</p>
+                                <button class="botao" onclick="alerta()">Comprar</button>
+                            </figure>
+                        </div>
+                        
+                    </article>
+                   
+                </section>
+                   
+            </main>
+            
+        </div>
+        <footer class="center">
+            <p> &copy; 2021 - Todos os direitos reservados</p>
+        </footer>
+        
+        <script>
+            function alerta(){
+                alert("Estamos sem o produto no estoque. Volte mais tarde.")
+            }
+        </script>
+    </body>
+</html>
